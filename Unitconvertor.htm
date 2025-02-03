@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="/home/priynka/unit convertor.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <div class="converter">
+            <label for="inputValue">Enter value:</label>
+            <input type="number" id="inputValue" placeholder="Enter value" />
+            
+            <select id="unitType">
+                <option value="kmToMiles">Kilometers to Miles</option>
+                <option value="milesToKm">Miles to Kilometers</option>
+            </select>
+
+            <button onclick="convert()">Convert</button>
+
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="/home/priynka/Unit convertor.js"></script>
+</body>
+</html>
+
